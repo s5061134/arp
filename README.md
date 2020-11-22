@@ -6,11 +6,14 @@ In this program the user inputs two numbers A and B, random signal is sent throu
 
 # Installing and Running.
 
-Machine requires a C compliler to Run the programme OR can be run in Ubuntu Shell. 
+Machine requires a C compliler like gcc to Run the programme OR can be run in Ubuntu Shell. 
+
+To run the program, Type the command $ Gcc arp1.c -o arp
+                                       $./arp
 
 # About the Code.
 
-Two numbers a&b should be entered by the user and the program generates the random letters, which enters the Pipe.
+Two numbers a&b should be entered by the user, the system takes the input which enters the Pipe.
 
 In Parent, output is to child via pipe[1] and in Child, input os from Pipe[0] and Output is via stdout. 
 
