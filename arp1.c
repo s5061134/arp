@@ -7,9 +7,17 @@
 int   p[2];
 int pid;
 int r;
+int a,b;
+int sum;
+ int main()
 
-main()
 {
+printf("Enter the values of a & b \n");
+scanf("%d, %d", &a,&b);
+sum=a+b;
+printf("sum:%d,sum);
+
+
     char *ls_args[] = {"ls", NULL};
     char *grep_args[] = {"grep", "pipe", NULL};
 
